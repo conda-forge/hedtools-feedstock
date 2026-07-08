@@ -1,4 +1,4 @@
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: hedtools
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/h/hedtools/hedtools-{{ version }}.tar.gz
-  sha256: 062f21beecff4b465918c8ff2ea4af6c9b51b5edb63e70f890eaab5d8dca935f
+  sha256: 90eb041613d896fec521ece9612fae426a997a4224fb43f0002474b3898f492f
 
 build:
   entry_points:
@@ -41,6 +41,7 @@ requirements:
     - pandas >=2.2.3,<4.0.0
     - portalocker >=3.1.1
     - semantic_version >=2.10.0
+    - typeguard >=4.5.2
 
 test:
   imports:
