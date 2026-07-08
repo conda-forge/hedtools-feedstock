@@ -41,6 +41,7 @@ requirements:
     - pandas >=2.2.3,<4.0.0
     - portalocker >=3.1.1
     - semantic_version >=2.10.0
+    - typeguard >=4.5.2
 
 test:
   imports:
