@@ -1,4 +1,4 @@
-{% set version = "1.1.1" %}
+{% set version = "1.2.0" %}
 
 package:
   name: hedtools
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/h/hedtools/hedtools-{{ version }}.tar.gz
-  sha256: 90eb041613d896fec521ece9612fae426a997a4224fb43f0002474b3898f492f
+  sha256: ee61e259f30f0c33e37c4aa946a97f5fb6fac392653cde021cfc333c5faf48d1
 
 build:
   entry_points:
